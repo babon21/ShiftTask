@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CftShiftTask</string>
+    <string name="date_birth_button_name">Дата рождения</string>
+</resources>
