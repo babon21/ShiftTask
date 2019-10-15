@@ -23,7 +23,7 @@ class GreetingDialog: DialogFragment() {
         val builder = AlertDialog.Builder(activity)
         val name = arguments?.getString("name") ?: "Ivan"
         val surname = arguments?.getString("surname") ?: "Ivanov"
-        builder.setTitle("Hello!")
+        builder.setTitle("Здравствуйте!")
             .setMessage("$surname $name")
             .setPositiveButton("OK") { dialog, which -> }
 
