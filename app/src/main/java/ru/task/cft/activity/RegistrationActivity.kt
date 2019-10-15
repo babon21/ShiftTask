@@ -147,7 +147,7 @@ class RegistrationActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun validateSurname(): Boolean {
-        if (passwordEditText.text.toString().length < 5) {
+        if (surnameEditText.text.toString().length < 2) {
             showDialog("Ошибка ввода данных", "Фамилия должна содержать более 1 буквы")
             return false
         }
